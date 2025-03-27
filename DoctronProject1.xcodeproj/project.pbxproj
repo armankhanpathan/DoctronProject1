@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE04122A2D6F315200DFA4B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0412292D6F315200DFA4B4 /* AppDelegate.swift */; };
+		CE04122C2D6F315200DFA4B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04122B2D6F315200DFA4B4 /* SceneDelegate.swift */; };
+		CE04122E2D6F315200DFA4B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04122D2D6F315200DFA4B4 /* ViewController.swift */; };
+		CE0412312D6F315200DFA4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE04122F2D6F315200DFA4B4 /* Main.storyboard */; };
+		CE0412332D6F315300DFA4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0412322D6F315300DFA4B4 /* Assets.xcassets */; };
+		CE0412362D6F315300DFA4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0412342D6F315300DFA4B4 /* LaunchScreen.storyboard */; };
+		CE52A6162D702C7800716C6F /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52A6152D702C7800716C6F /* SignUp.swift */; };
+		CE52A6182D7035D900716C6F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52A6172D7035D900716C6F /* HomeViewController.swift */; };
+		CE52A61B2D70410300716C6F /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52A6192D70410300716C6F /* AppointmentTableViewCell.swift */; };
+		CE52A61C2D70410300716C6F /* AppointmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE52A61A2D70410300716C6F /* AppointmentTableViewCell.xib */; };
+		CE52A61E2D7049AC00716C6F /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52A61D2D7049AC00716C6F /* StoreData.swift */; };
+		CE52A6222D7065FF00716C6F /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52A6212D7065FF00716C6F /* AppointmentViewController.swift */; };
+		CE6CB0D02D7EE0590017C1A1 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CB0CF2D7EE0590017C1A1 /* BookingViewController.swift */; };
+		CE78C2DB2D75B7DD00A6C0B7 /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78C2DA2D75B7DD00A6C0B7 /* DoctorProfileViewController.swift */; };
+		CE8F8C9F2D7583070017DF5C /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F8C9E2D7583070017DF5C /* HomeTabViewController.swift */; };
+		CE8F8CA32D75894F0017DF5C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F8CA22D75894F0017DF5C /* TabBarViewController.swift */; };
+		CE8F8CA52D758A440017DF5C /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F8CA42D758A440017DF5C /* MyAccount.swift */; };
+		CEAEDF762D8AC337004E1F23 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDF752D8AC337004E1F23 /* ResetPasswordViewController.swift */; };
+		CEAEDF782D8AC377004E1F23 /* ConfirmNewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDF772D8AC377004E1F23 /* ConfirmNewPasswordViewController.swift */; };
+		CEB415162D7AD1190091BFFD /* DoctorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB415142D7AD1190091BFFD /* DoctorTableViewCell.swift */; };
+		CEB415172D7AD1190091BFFD /* DoctorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB415152D7AD1190091BFFD /* DoctorTableViewCell.xib */; };
+		CED621392D82B13200397476 /* AppotmentConfirmedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED621382D82B13200397476 /* AppotmentConfirmedViewController.swift */; };
+		CED6213B2D82FAB500397476 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6213A2D82FAB500397476 /* Appointment.swift */; };
+		CED7DC332D7FFA8F00482DCF /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7DC322D7FFA8F00482DCF /* PaymentViewController.swift */; };
+		CEDB9FF92D7081B50073CBBD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB9FF82D7081B50073CBBD /* Login.swift */; };
+		CEE3D72E2D7ABE2000AB11E4 /* RegisterdSuccessfulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3D72D2D7ABE2000AB11E4 /* RegisterdSuccessfulViewController.swift */; };
+		CEE3D7302D7ACE7700AB11E4 /* DoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3D72F2D7ACE7700AB11E4 /* DoctorsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE0412262D6F315200DFA4B4 /* DoctronProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctronProject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0412292D6F315200DFA4B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE04122B2D6F315200DFA4B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE04122D2D6F315200DFA4B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE0412302D6F315200DFA4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE0412322D6F315300DFA4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE0412352D6F315300DFA4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE0412372D6F315300DFA4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE52A6152D702C7800716C6F /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		CE52A6172D7035D900716C6F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE52A6192D70410300716C6F /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		CE52A61A2D70410300716C6F /* AppointmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentTableViewCell.xib; sourceTree = "<group>"; };
+		CE52A61D2D7049AC00716C6F /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
+		CE52A6212D7065FF00716C6F /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		CE6CB0CF2D7EE0590017C1A1 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookingViewController.swift; path = ../BookingViewController.swift; sourceTree = "<group>"; };
+		CE78C2DA2D75B7DD00A6C0B7 /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
+		CE8F8C9E2D7583070017DF5C /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		CE8F8CA22D75894F0017DF5C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CE8F8CA42D758A440017DF5C /* MyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
+		CEAEDF752D8AC337004E1F23 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResetPasswordViewController.swift; path = ../ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		CEAEDF772D8AC377004E1F23 /* ConfirmNewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmNewPasswordViewController.swift; sourceTree = "<group>"; };
+		CEB415142D7AD1190091BFFD /* DoctorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTableViewCell.swift; sourceTree = "<group>"; };
+		CEB415152D7AD1190091BFFD /* DoctorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorTableViewCell.xib; sourceTree = "<group>"; };
+		CED621382D82B13200397476 /* AppotmentConfirmedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppotmentConfirmedViewController.swift; sourceTree = "<group>"; };
+		CED6213A2D82FAB500397476 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		CED7DC322D7FFA8F00482DCF /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		CEDB9FF82D7081B50073CBBD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CEE3D72D2D7ABE2000AB11E4 /* RegisterdSuccessfulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterdSuccessfulViewController.swift; sourceTree = "<group>"; };
+		CEE3D72F2D7ACE7700AB11E4 /* DoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE0412232D6F315200DFA4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE04121D2D6F315200DFA4B4 = {
+			isa = PBXGroup;
+			children = (
+				CE0412282D6F315200DFA4B4 /* DoctronProject1 */,
+				CE0412272D6F315200DFA4B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE0412272D6F315200DFA4B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE0412262D6F315200DFA4B4 /* DoctronProject1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE0412282D6F315200DFA4B4 /* DoctronProject1 */ = {
+			isa = PBXGroup;
+			children = (
+				CED621382D82B13200397476 /* AppotmentConfirmedViewController.swift */,
+				CE0412292D6F315200DFA4B4 /* AppDelegate.swift */,
+				CE04122B2D6F315200DFA4B4 /* SceneDelegate.swift */,
+				CEDB9FF82D7081B50073CBBD /* Login.swift */,
+				CE52A6152D702C7800716C6F /* SignUp.swift */,
+				CE8F8CA42D758A440017DF5C /* MyAccount.swift */,
+				CE78C2DA2D75B7DD00A6C0B7 /* DoctorProfileViewController.swift */,
+				CE52A61D2D7049AC00716C6F /* StoreData.swift */,
+				CE04122D2D6F315200DFA4B4 /* ViewController.swift */,
+				CEE3D72F2D7ACE7700AB11E4 /* DoctorsViewController.swift */,
+				CE04122F2D6F315200DFA4B4 /* Main.storyboard */,
+				CEAEDF772D8AC377004E1F23 /* ConfirmNewPasswordViewController.swift */,
+				CEAEDF752D8AC337004E1F23 /* ResetPasswordViewController.swift */,
+				CE52A6212D7065FF00716C6F /* AppointmentViewController.swift */,
+				CED7DC322D7FFA8F00482DCF /* PaymentViewController.swift */,
+				CE6CB0CF2D7EE0590017C1A1 /* BookingViewController.swift */,
+				CEB415152D7AD1190091BFFD /* DoctorTableViewCell.xib */,
+				CEB415142D7AD1190091BFFD /* DoctorTableViewCell.swift */,
+				CE8F8CA22D75894F0017DF5C /* TabBarViewController.swift */,
+				CEE3D72D2D7ABE2000AB11E4 /* RegisterdSuccessfulViewController.swift */,
+				CE8F8C9E2D7583070017DF5C /* HomeTabViewController.swift */,
+				CED6213A2D82FAB500397476 /* Appointment.swift */,
+				CE52A61A2D70410300716C6F /* AppointmentTableViewCell.xib */,
+				CE0412342D6F315300DFA4B4 /* LaunchScreen.storyboard */,
+				CE52A6192D70410300716C6F /* AppointmentTableViewCell.swift */,
+				CE52A6172D7035D900716C6F /* HomeViewController.swift */,
+				CE0412322D6F315300DFA4B4 /* Assets.xcassets */,
+				CE0412372D6F315300DFA4B4 /* Info.plist */,
+			);
+			path = DoctronProject1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE0412252D6F315200DFA4B4 /* DoctronProject1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE04123A2D6F315300DFA4B4 /* Build configuration list for PBXNativeTarget "DoctronProject1" */;
+			buildPhases = (
+				CE0412222D6F315200DFA4B4 /* Sources */,
+				CE0412232D6F315200DFA4B4 /* Frameworks */,
+				CE0412242D6F315200DFA4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctronProject1;
+			productName = DoctronProject1;
+			productReference = CE0412262D6F315200DFA4B4 /* DoctronProject1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE04121E2D6F315200DFA4B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CE0412252D6F315200DFA4B4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CE0412212D6F315200DFA4B4 /* Build configuration list for PBXProject "DoctronProject1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE04121D2D6F315200DFA4B4;
+			productRefGroup = CE0412272D6F315200DFA4B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE0412252D6F315200DFA4B4 /* DoctronProject1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE0412242D6F315200DFA4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0412362D6F315300DFA4B4 /* LaunchScreen.storyboard in Resources */,
+				CE0412332D6F315300DFA4B4 /* Assets.xcassets in Resources */,
+				CE0412312D6F315200DFA4B4 /* Main.storyboard in Resources */,
+				CEB415172D7AD1190091BFFD /* DoctorTableViewCell.xib in Resources */,
+				CE52A61C2D70410300716C6F /* AppointmentTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE0412222D6F315200DFA4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED621392D82B13200397476 /* AppotmentConfirmedViewController.swift in Sources */,
+				CE52A6222D7065FF00716C6F /* AppointmentViewController.swift in Sources */,
+				CE52A6182D7035D900716C6F /* HomeViewController.swift in Sources */,
+				CEB415162D7AD1190091BFFD /* DoctorTableViewCell.swift in Sources */,
+				CEE3D72E2D7ABE2000AB11E4 /* RegisterdSuccessfulViewController.swift in Sources */,
+				CE8F8CA52D758A440017DF5C /* MyAccount.swift in Sources */,
+				CEAEDF762D8AC337004E1F23 /* ResetPasswordViewController.swift in Sources */,
+				CEE3D7302D7ACE7700AB11E4 /* DoctorsViewController.swift in Sources */,
+				CE8F8CA32D75894F0017DF5C /* TabBarViewController.swift in Sources */,
+				CED7DC332D7FFA8F00482DCF /* PaymentViewController.swift in Sources */,
+				CE04122E2D6F315200DFA4B4 /* ViewController.swift in Sources */,
+				CE78C2DB2D75B7DD00A6C0B7 /* DoctorProfileViewController.swift in Sources */,
+				CE04122A2D6F315200DFA4B4 /* AppDelegate.swift in Sources */,
+				CE52A6162D702C7800716C6F /* SignUp.swift in Sources */,
+				CE6CB0D02D7EE0590017C1A1 /* BookingViewController.swift in Sources */,
+				CEDB9FF92D7081B50073CBBD /* Login.swift in Sources */,
+				CE04122C2D6F315200DFA4B4 /* SceneDelegate.swift in Sources */,
+				CEAEDF782D8AC377004E1F23 /* ConfirmNewPasswordViewController.swift in Sources */,
+				CE52A61B2D70410300716C6F /* AppointmentTableViewCell.swift in Sources */,
+				CE52A61E2D7049AC00716C6F /* StoreData.swift in Sources */,
+				CE8F8C9F2D7583070017DF5C /* HomeTabViewController.swift in Sources */,
+				CED6213B2D82FAB500397476 /* Appointment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE04122F2D6F315200DFA4B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0412302D6F315200DFA4B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE0412342D6F315300DFA4B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0412352D6F315300DFA4B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE0412382D6F315300DFA4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE0412392D6F315300DFA4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE04123B2D6F315300DFA4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoctronProject1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webbunny.com.DoctronProject1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE04123C2D6F315300DFA4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoctronProject1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webbunny.com.DoctronProject1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE0412212D6F315200DFA4B4 /* Build configuration list for PBXProject "DoctronProject1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0412382D6F315300DFA4B4 /* Debug */,
+				CE0412392D6F315300DFA4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE04123A2D6F315300DFA4B4 /* Build configuration list for PBXNativeTarget "DoctronProject1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE04123B2D6F315300DFA4B4 /* Debug */,
+				CE04123C2D6F315300DFA4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE04121E2D6F315200DFA4B4 /* Project object */;
+}
