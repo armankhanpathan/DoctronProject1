@@ -48,7 +48,7 @@ class MyAccountViewController: UIViewController {
      
 //        let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeScreenViewController") as! HomeScreenViewController
 //        self.navigationController?.pushViewController(vc, animated: true)
-        self.navigationController?.popToRootViewController(animated: true)
-        
+       // self.navigationController?.popToRootViewController(animated: true)
+        navigationController?.popViewController(animated: true)
     }
 }

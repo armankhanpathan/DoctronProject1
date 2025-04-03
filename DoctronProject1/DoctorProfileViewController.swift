@@ -72,7 +72,7 @@ class DoctorProfileViewController: UIViewController {
                 print("Error encoding data: \(error)")
             }
             
-            if let appointment = history {
+            if history != nil {
                             delegate?.reloadTableData() // Reload table data in the first view controller
                         }
             

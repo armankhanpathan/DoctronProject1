@@ -66,6 +66,7 @@ extension DoctorsViewController: UITableViewDelegate, UITableViewDataSource {
             return filteredDoctors.count
         }
         return buttonTappedArray.count
+    
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -87,6 +88,10 @@ extension DoctorsViewController: UITableViewDelegate, UITableViewDataSource {
         
         return doctorCell
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return tableViewOutlet.frame.height * 0.23
+    }
    
 }
 
@@ -107,4 +112,6 @@ extension DoctorsViewController: UISearchResultsUpdating {
 
         tableViewOutlet.reloadData()
     }
+    
+    
 }
