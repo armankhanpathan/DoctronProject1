@@ -48,7 +48,13 @@ class MyAccountViewController: UIViewController {
      
 //        let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeScreenViewController") as! HomeScreenViewController
 //        self.navigationController?.pushViewController(vc, animated: true)
-       // self.navigationController?.popToRootViewController(animated: true)
-        navigationController?.popViewController(animated: true)
+     //   self.navigationController?.popToRootViewController(animated: true)
+        //navigationController?.popViewController(animated: true)
+        
+        let initialViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeScreenViewController") as! HomeScreenViewController
+        let navigation = UINavigationController(rootViewController: initialViewController)
+        self.view.window?.rootViewController = navigation
+        self.view.window?.makeKeyAndVisible()
+        
     }
 }
