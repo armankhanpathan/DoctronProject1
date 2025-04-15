@@ -20,6 +20,8 @@ Doctron is an iOS application built with Swift and UIKit that simplifies the pro
 - **Version Control**: Git, GitHub
 
 ## Screenshots
+
+![Screenshot 2025-04-15 at 10 25 35 AM](https://github.com/user-attachments/assets/34831775-cbd6-4ee4-8a4d-c8f0eb524219)
 ![Simulator Screenshot - iPhone Xs Max - 2025-04-15 at 10 17 07](https://github.com/user-attachments/assets/d71554a3-97da-4977-acee-16bc4e3a7391)
 ![Simulator Screenshot - iPhone Xs Max - 2025-04-15 at 10 17 38](https://github.com/user-attachments/assets/307da338-c591-4e35-bdf5-9381009e04a8)
 ![Simulator Screenshot - iPhone Xs Max - 2025-04-15 at 10 17 46](https://github.com/user-attachments/assets/2bd93235-ac4e-4faa-a2f0-43455e830904)
