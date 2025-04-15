@@ -36,4 +36,4 @@ Doctron is an iOS application built with Swift and UIKit that simplifies the pro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/doctron.git](https://github.com/armankhanpathan/DoctronProject1
+   git clone https://github.com/armankhanpathan/DoctronProject1
